@@ -1,4 +1,4 @@
-# Davood (David) :
+# Davood (David)
 
 - [Allah's caliph on earth to judge among the people](https://quran.com/38/26)
 - [Judging between people](https://quran.com/21/78)
