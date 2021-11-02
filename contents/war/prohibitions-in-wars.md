@@ -1,0 +1,12 @@
+# Prohibitions in Wars:
+- [taking captives.](https://quran.com/8/67)
+- [Attacking to the woundeds of war.](https://quran.com/2/190-193)
+- [Pursuing fugitives.](https://quran.com/48/22)
+- [Killing prisoners.](https://quran.com/2/190-193)
+- [Attacking grounded and helpless people.](https://quran.com/2/190-193)
+- [Killing women, children and the elderly.](https://quran.com/2/190-193)
+- [Killing mercenaries, couriers, servants and hostages.](https://quran.com/2/190-193)
+- [Killing unarmed and defenseless people and civilians.](https://quran.com/2/190-193)
+- [Mutilating.](https://quran.com/2/190-193)
+- [Killing farmers of the war zone.](https://quran.com/2/190-193)
+- [Aggressive seizure of water and land and property of people in war zones and their animals.](https://quran.com/2/190-193) 
