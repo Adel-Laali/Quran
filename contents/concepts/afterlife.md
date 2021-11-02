@@ -1,4 +1,4 @@
-# Hereafter
+# Afterlife
 
 - [Convert sperm to adult human](https://www.quran.com/75/36-40)
 - [Giving life & causing death (repetitive cycle)](https://www.quran.com/2/28)
