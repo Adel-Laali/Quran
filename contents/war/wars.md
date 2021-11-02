@@ -1,0 +1,22 @@
+# Wars:
+
+- Badr
+    - [3:13](https://quran.com/3/13)
+    - [3:123](https://quran.com/3/123)
+    - Distance from Medina = 151 km
+    - Distance from Mecca = 320 km
+- Uhud
+    - [3:121-122](https://quran.com/3/121)
+    - [3:167](https://quran.com/3/167)
+    - Distance from Medina = 13 km
+    - Diatance from Mecca = 454 km
+- Ahzab
+    - [33](https://quran.com/33)
+        - [33:10](https://quran.com/33/10)
+- Khaybar
+    - 48:20-21
+- Conquest of Mecca
+- Hunain
+    - 9:25-26
+- Tabuk
+    - 9:38-44
