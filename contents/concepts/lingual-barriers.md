@@ -4,12 +4,12 @@
 
 ترجمه هاش ایناس:
 
-به سمت شما آمده ام
-برای شما آورده ام
-I bring you
-I come to you
-I will come to you
-I have come to you
+به سمت شما آمده ام   
+برای شما آورده ام   
+I bring you   
+I come to you   
+I will come to you   
+I have come to you   
 
 یعنی هم در معنای گذشته ترجمه شده، هم حال، هم آینده.
 
