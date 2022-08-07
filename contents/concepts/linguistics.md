@@ -7,4 +7,8 @@
 - milk
 - faucet
 
+bat
+ - stick
+ - animal
+
 homograph, homonym, homophone
