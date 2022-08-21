@@ -8,11 +8,93 @@
 
 ### Most relavent
 - [ز ل ز ل](https://corpus.quran.com/qurandictionary.jsp?q=zlzl)
+    - [2:214](https://quran.com/2/214)
+    - [33:11](https://quran.com/33/11)
 - [ا ذ ی](https://corpus.quran.com/qurandictionary.jsp?q=A*y)
+    - to harm, to trouble
+        - [3:195](https://quran.com/3/195)
+        - [6:34](https://quran.com/6/34)
+        - [7:129](https://quran.com/7/129)
+        - [9:61](https://quran.com/9/61)
+        - [14:12](https://quran.com/14/12)
+        - [33:53](https://quran.com/33/53)
+        - [33:69](https://quran.com/33/69)
+        - [61:5](https://quran.com/61/5)
+    - ailment, trouble, hurt
+        - [4:102](https://quran.com/4/102)
+        - [2:222](https://quran.com/2/222)
 - [خ و ف](https://corpus.quran.com/qurandictionary.jsp?q=xwf)
+    - to fear, to be afraid
+        - [2:239](https://quran.com/2/239)
+        - [4:101](https://quran.com/4/101)
+        - [11:70](https://quran.com/11/70)
+        - [12:13](https://quran.com/12/13)
+        - [19:5](https://quran.com/19/5)
+        - [20:21](https://quran.com/20/21)
+        - [20:45](https://quran.com/20/45)
+        - [26:12](https://quran.com/26/12)
+        - [26:14](https://quran.com/26/14)
+        - [26:21](https://quran.com/26/21)
+        - [27:10](https://quran.com/27/10)
+        - [28:7](https://quran.com/28/7)
+        - [28:25](https://quran.com/28/25)
+        - [28:31](https://quran.com/28/31)
+        - [28:33](https://quran.com/28/33)
+        - [29:33](https://quran.com/29/33)
+        - [38:22](https://quran.com/38/22)
+        - [51:28](https://quran.com/51/28)
+    - fear
+        - [2:38](https://quran.com/2/38)
+        - ...
+        - [7:56](https://quran.com/7/56)
+        - [32:16](https://quran.com/32/16)
+    - fear (another form)
+        - [11:70](https://quran.com/11/70)
+        - [20:67](https://quran.com/20/67)
+    - active participle
+        - [28:18](https://quran.com/28/18)
+        - [28:21](https://quran.com/28/21)
 - [ح ز ن](https://corpus.quran.com/qurandictionary.jsp?q=Hzn)
+    - to grieve
+        - [2:38](https://quran.com/2/38)
+        - ...
+        - [3:153](https://quran.com/3/153)
+        - [3:176](https://quran.com/3/176)
+        - [6:33](https://quran.com/6/33)
+        - [9:40](https://quran.com/9/40)
+        - [10:65](https://quran.com/10/65)
+        - [19:24](https://quran.com/19/24)
+        - [20:40](https://quran.com/20/40)
+        - [36:76](https://quran.com/36/76)
+    - grieve
+        - [12:84](https://quran.com/12/84)
+        - [12:86](https://quran.com/12/86)
 - [س ک ن](https://corpus.quran.com/qurandictionary.jsp?q=skn)
+    - to rest
+        - [7:189](https://quran.com/7/189)
+        - [30:21](https://quran.com/30/21)
+        - [10:67](https://quran.com/10/67)
+        - ...
+    - reassurance, rest
+        - [9:103](https://quran.com/9/103)
+        - [16:80](https://quran.com/16/80)
+    - tranquility (another form)
+        - [2:248](https://quran.com/2/248)
+        - [9:26](https://quran.com/9/26)
+        - [9:40](https://quran.com/9/40)
+        - [48:4](https://quran.com/48/4)
+        - [48:18](https://quran.com/48/18)
+        - [48:26](https://quran.com/48/26)
+    - misery (another form)
+        - [2:61](https://quran.com/2/61)
+        - [3:112](https://quran.com/3/112)
+    - needy (another form)
+        - مسکین
+        - مساکین
 - [ط م ن](https://corpus.quran.com/qurandictionary.jsp?q=Tmn)
+    - to be satisfied, to be secure, to be content
+        - [2:260](https://quran.com/2/260)
+        - []
 
 ### Less relavent
 - [س خ ر](https://corpus.quran.com/qurandictionary.jsp?q=sxr)
@@ -24,4 +106,16 @@
 - Abraham felt fear
 - Moses felt fear
 - [11:77](https://quran.com/11/77)
-- 
+
+### Analogies
+- Going to an educational class
+    - Primary goal: education
+    - Secondary goals:
+        - Having fun
+        - Communication
+- For fun as primary goal
+    - Go to funfare
+    - 
+
+### Notes
+- Feelings are empiricistic, not rationalistic
