@@ -7,12 +7,12 @@
     - My personal favorite
 
 ### Most relavent
+- [ز ل ز ل](https://corpus.quran.com/qurandictionary.jsp?q=zlzl)
+- [ا ذ ی](https://corpus.quran.com/qurandictionary.jsp?q=A*y)
 - [خ و ف](https://corpus.quran.com/qurandictionary.jsp?q=xwf)
 - [ح ز ن](https://corpus.quran.com/qurandictionary.jsp?q=Hzn)
 - [س ک ن](https://corpus.quran.com/qurandictionary.jsp?q=skn)
 - [ط م ن](https://corpus.quran.com/qurandictionary.jsp?q=Tmn)
-- [ز ل ز ل](https://corpus.quran.com/qurandictionary.jsp?q=zlzl)
-- [ا ذ ی](https://corpus.quran.com/qurandictionary.jsp?q=A*y)
 
 ### Less relavent
 - [س خ ر](https://corpus.quran.com/qurandictionary.jsp?q=sxr)
@@ -23,4 +23,5 @@
 - Marry complained and wished for non-existence
 - Abraham felt fear
 - Moses felt fear
+- [11:77](https://quran.com/11/77)
 - 
