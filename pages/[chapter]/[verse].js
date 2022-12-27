@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
 import { marked } from 'marked';
-import chapters from '../../components/Chapters';
 import getAhlolbaitUrl from '../../contents/ahlolbait'
 
 const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpusUrl, ahlolbaitUrl }) => {
@@ -11,20 +10,20 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpus
         return <Error statusCode={errorCode} />
     }
 
-    content = 
+    content =
         '<div class="md:grid grid-cols-2 gap-6">'
-            + '<div class="prose p-5 m-5">'
-                + `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
-                + `<h2><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}">${chapter.chapter_number} - ${verse}</a></h2>`
-                + `<p class="text-2xl leading-10 pr-10" dir="rtl">${verseText}</p>`
-                + `<div><a target="_blank" href="${corpusUrl}">Corpus</a></div>`
-                + `<div><a target="_blank" href="${ahlolbaitUrl}">Ahlolbait</a></div>`
-                + `<div><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}?translations=131,85,17,207,149,19,167,84,203,206,20,95,171,57,22,173,136,31,779,233,81,143,118,29,135,172,210,77,52,124,112,158,234,54,156,151,97,101,127,55,122">Translations</a></div>`
-                + `<div><a target="_blank" href="https://www.google.com/search?q=nouman+ali+khan+${chapter.chapter_number}+${chapter.name_simple}+${verse}+guiding+directions&oq=nouman+ali+khan+4+nisa+100&aqs=chrome..69i57j69i61.327j0j1&sourceid=chrome&ie=UTF-8">Nouman Ali Khan</a></div>`
-            + '</div>'
-            + '<div class="prose p-5 m-5 md:h-full md:fixed md:overflow-scroll md:right-0 md:w-1/2">'
-                + content
-            + '</div>'
+        + '<div class="prose p-5 m-5">'
+        + `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
+        + `<h2><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}">${chapter.chapter_number} - ${verse}</a></h2>`
+        + `<p class="text-2xl leading-10 pr-10" dir="rtl">${verseText}</p>`
+        + `<div><a target="_blank" href="${corpusUrl}">Corpus</a></div>`
+        + `<div><a target="_blank" href="${ahlolbaitUrl}">Ahlolbait</a></div>`
+        + `<div><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}?translations=131,85,17,207,149,19,167,84,203,206,20,95,171,57,22,173,136,31,779,233,81,143,118,29,135,172,210,77,52,124,112,158,234,54,156,151,97,101,127,55,122">Translations</a></div>`
+        + `<div><a target="_blank" href="https://www.google.com/search?q=nouman+ali+khan+${chapter.chapter_number}+${chapter.name_simple}+${verse}+guiding+directions&oq=nouman+ali+khan+4+nisa+100&aqs=chrome..69i57j69i61.327j0j1&sourceid=chrome&ie=UTF-8">Nouman Ali Khan</a></div>`
+        + '</div>'
+        + '<div class="prose p-5 m-5 md:h-full md:fixed md:overflow-scroll md:right-0 md:w-1/2">'
+        + content
+        + '</div>'
         + '</div>'
 
     return <div
@@ -50,7 +49,10 @@ export async function getServerSideProps({ params, res }) {
         res.statusCode = 404;
         return notFound;
     }
-    const chapterJson = (await chapters).filter(i => i.chapter_number == chapter)[0];
+
+    const response = await fetch('https://api.quran.com/api/v3/chapters')
+    const chapters = await response.json()
+    const chapterJson = chapters.chapters.filter(i => i.chapter_number == chapter)[0];
     if (verse * 1 > chapterJson.verses_count || verse * 1 < 1) {
         res.statusCode = 404;
         return notFound;

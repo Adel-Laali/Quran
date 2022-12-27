@@ -1,5 +1,4 @@
 import Error from 'next/error';
-import chapters from '../components/Chapters';
 import { useRouter } from 'next/router'
 
 const ChapterAndVerse = ({ chapter, errorCode }) => {
@@ -40,7 +39,10 @@ export async function getServerSideProps({ params, res }) {
         res.statusCode = 404;
         return notFound;
     }
-    const chapter = (await chapters).filter(i => i.chapter_number == chapterNumber)[0];
+
+    const response = await fetch('https://api.quran.com/api/v3/chapters')
+    const chapters = await response.json()
+    const chapter = chapters.chapters.filter(i => i.chapter_number == chapterNumber)[0];
     return { props: { chapter } };
 }
 

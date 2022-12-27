@@ -43,7 +43,7 @@ export async function getServerSideProps({ params, res }) {
     const response = await fetch('https://api.quran.com/api/v3/chapters')
     const chapters = await response.json()
 
-    return { props: { chapters } };
+    return { props: { ...chapters } };
 }
 
 export default Index;
