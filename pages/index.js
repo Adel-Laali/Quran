@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import { getFromCacheOrApi } from 'Base'
 
 const Index = ({ chapters }) => {
 
@@ -41,7 +40,8 @@ const Index = ({ chapters }) => {
 
 export async function getServerSideProps({ params, res }) {
 
-    const chapters = await getFromCacheOrApi('https://api.quran.com/api/v3/chapters')
+    const response = await fetch('https://api.quran.com/api/v3/chapters')
+    const chapters = await response.json()
 
     return { props: { chapters } };
 }
