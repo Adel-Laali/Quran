@@ -36,8 +36,8 @@ jobs:
           sudo mkdir /Sultanimmubin
           sudo chmod 777 /Sultanimmubin
 
-      - name: Get HolismHolding/Infra using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Infra
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Infra
           token: ${{ secrets.PAT }}
@@ -46,8 +46,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Infra /HolismHolding/Infra
 
-      - name: Get HolismHolding/Commands using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Commands
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Commands
           token: ${{ secrets.PAT }}
@@ -56,8 +56,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Commands /HolismHolding/Commands
 
-      - name: Get HolismHolding/Scripts using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Scripts
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Scripts
           token: ${{ secrets.PAT }}
@@ -66,8 +66,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Scripts /HolismHolding/Scripts
 
-      - name: Get HolismHolding/Docker using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismHolding/Docker
+        uses: actions/checkout@v3
         with:
           repository: HolismHolding/Docker
           token: ${{ secrets.PAT }}
@@ -76,8 +76,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Docker /HolismHolding/Docker
 
-      - name: Get HolismSite/Infra using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get HolismSite/Infra
+        uses: actions/checkout@v3
         with:
           repository: HolismSite/Infra
           token: ${{ secrets.PAT }}
@@ -88,10 +88,20 @@ jobs:
 
       # Dependencies
 
+      - name: Get HolismSite/Entities
+        uses: actions/checkout@v3
+        with:
+          repository: HolismSite/Entities
+          token: ${{ secrets.PAT }}
+          path: HolismSite/Entities
+      - name: Copy HolismSite/Entities to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismSite/Entities /HolismSite/Entities 
+
       # Main
       
-      - name: Get Sultanimmubin/Quran using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get Sultanimmubin/Quran
+        uses: actions/checkout@v3
         with:
           repository: Sultanimmubin/Quran
           token: ${{ secrets.PAT }}
@@ -100,8 +110,8 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/Sultanimmubin/Quran /Sultanimmubin/Quran 
 
-      - name: Get Sultanimmubin/Common using actions/checkout@v2
-        uses: actions/checkout@v2
+      - name: Get Sultanimmubin/Common
+        uses: actions/checkout@v3
         with:
           repository: Sultanimmubin/Common
           token: ${{ secrets.PAT }}

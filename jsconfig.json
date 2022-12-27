@@ -1,5 +1,13 @@
 {
     "compilerOptions": {
-        "baseUrl": "."
+        "baseUrl": ".",
+        "paths": {
+            "Base": [
+                "Base/Exports"
+            ],
+            "Hooks": [
+                "components/Hooks/Exports"
+            ]
+        }
     }
 }

@@ -1,10 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-import React, { useState, useEffect } from 'react';
-import chapters from '../components/Chapters';
+import { useState } from 'react'
 import { useRouter } from 'next/router'
+import { getFromCacheOrApi } from 'Base'
 
-const Index = ({ chaptersJson }) => {
+const Index = ({ chapters }) => {
 
     const [tab, setTab] = useState('chapters');
 
@@ -24,7 +22,7 @@ const Index = ({ chaptersJson }) => {
                 ?
                 <ul id='chapters' className="flex flex-wrap flex-grow mx-12 mb-4 justify-center">
                     {
-                        chaptersJson.map(
+                        chapters.map(
                             chapter => <li key={chapter.chapter_number} onClick={() => goToChapter(chapter)} className="m-1 py-2 px-4 bg-green-200 rounded cursor-pointer hover:bg-green-900 hover:text-white transition-all duration-200">
                                 <div className="text-xs font-bold">{chapter.chapter_number}</div>
                                 <div className="my-1 font-medium">{chapter.name_simple}</div>
@@ -43,32 +41,9 @@ const Index = ({ chaptersJson }) => {
 
 export async function getServerSideProps({ params, res }) {
 
-    const createDirectoriesAndFiles = (chapters) => {
-        if (chapters.length === 0) {
-            return;
-        }
-        for (var i = 0; i < chapters.length; i++) {
-            const chapter = chapters[i];
-            const pathSegments = [process.cwd(), 'contents', 'surahs'].concat(chapter.chapter_number.toString().padStart(3, '0'));
-            const directory = path.join.apply(null, [...pathSegments]);
-            console.log(directory);
-            if (!fs.existsSync(directory)) {
-                fs.mkdirSync(directory, { recursive: true });
-            }
-            for (var j = 1; j <= chapter.verses_count; j++) {
-                const filePath = path.join.apply(null, [...pathSegments, j.toString().padStart(3, '0')]) + '.md';
-                if (!fs.existsSync(filePath)) {
-                    fs.appendFile(filePath, '', () => { });
-                }
-            }
-        }
-    }
+    const chapters = await getFromCacheOrApi('https://api.quran.com/api/v3/chapters')
 
-    const chaptersJson = (await chapters);
-
-    console.log(chaptersJson.length);
-
-    return { props: { chaptersJson } };
+    return { props: { chapters } };
 }
 
 export default Index;
