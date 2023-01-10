@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
 import { marked } from 'marked';
-import getAhlolbaitUrl from '../../contents/ahlolbait'
+import getAhlolbaitUrl from '../../Contents/ahlolbait'
 
 const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpusUrl, ahlolbaitUrl }) => {
 

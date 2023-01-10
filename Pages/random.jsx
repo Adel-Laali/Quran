@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import quran from "../contents/quran"
+import quran from "../Contents/quran"
 
 const Random = ({ chapter, verse }) => {
 
