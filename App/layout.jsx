@@ -1,16 +1,13 @@
-import Head from 'next/head';
-import '../styles/all.scss';
+import '../Styles/All.scss'
+import { useLayout } from 'Base'
 
-function MyApp({ Component, pageProps }) {
-    return (
-        <>
-            <Head>
-                <title>{process.env.NEXT_PUBLIC_BRAND} - {process.env.NEXT_PUBLIC_SLOGAN}</title>
-                <link rel="icon" href="/images/favicon.ico" />
-            </Head>
-            <Component {...pageProps} />
-        </>
-    );
+function Layout({ children }) {
+
+    return useLayout({
+        head: <></>,
+    }).render(<>
+        {children}
+    </>)
 }
 
-export default MyApp
+export default Layout

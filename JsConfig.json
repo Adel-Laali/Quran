@@ -1,13 +1,28 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "Base": [
-                "Base/Exports"
-            ],
-            "Hooks": [
-                "components/Hooks/Exports"
-            ]
-        }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "Hooks": [
+        "Components/Hooks/Exports"
+      ],
+      "Contexts": [
+        "Contexts/Exports"
+      ],
+      "Base": [
+        "Base/Exports"
+      ],
+      "Pages": [
+        "pages/Exports"
+      ],
+      "Shared": [
+        "Components/Shared/Exports"
+      ],
+      "Entities": [
+        "Modules/Entities/Exports"
+      ],
+      "Branding": [
+        "public/Branding/Exports"
+      ]
     }
+  }
 }

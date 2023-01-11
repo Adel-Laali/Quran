@@ -1,4 +1,3 @@
-import Error from 'next/error';
 import { useRouter } from 'next/router'
 
 const ChapterAndVerse = ({ chapter, errorCode }) => {
@@ -10,7 +9,7 @@ const ChapterAndVerse = ({ chapter, errorCode }) => {
     }
 
     if (errorCode) {
-        return <Error statusCode={errorCode} />
+        return <h1>Error - {errorCode}</h1>
     }
 
     return <>

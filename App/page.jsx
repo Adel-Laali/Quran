@@ -1,15 +1,20 @@
+'use client'
+
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 
-const Index = ({ chapters }) => {
+const Index = async () => {
+
+    const response = await fetch('https://api.quran.com/api/v3/chapters')
+    const chapters = await response.json()
 
     const [tab, setTab] = useState('chapters');
 
-    const router = useRouter()
+    // const router = useRouter()
 
-    const goToChapter = (chapter) => {
-        router.push(`/${chapter.chapter_number}`);
-    }
+    // const goToChapter = (chapter) => {
+    //     router.push(`/${chapter.chapter_number}`);
+    // }
 
     return <>
         <h1 className="py-4 flex items-center justify-around text-5xl font-bold">
@@ -36,14 +41,6 @@ const Index = ({ chapters }) => {
                 </ul>
         }
     </>
-}
-
-export async function getServerSideProps({ params, res }) {
-
-    const response = await fetch('https://api.quran.com/api/v3/chapters')
-    const chapters = await response.json()
-
-    return { props: { ...chapters } };
 }
 
 export default Index;

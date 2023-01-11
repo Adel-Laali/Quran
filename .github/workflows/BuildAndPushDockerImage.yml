@@ -76,6 +76,16 @@ jobs:
         run: |
           cp -r $GITHUB_WORKSPACE/HolismHolding/Docker /HolismHolding/Docker
 
+      - name: Get HolismHolding/Fonts
+        uses: actions/checkout@v3
+        with:
+          repository: HolismHolding/Fonts
+          token: ${{ secrets.PAT }}
+          path: HolismHolding/Fonts
+      - name: Copy HolismHolding/Fonts to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismHolding/Fonts /HolismHolding/Fonts
+
       - name: Get HolismSite/Infra
         uses: actions/checkout@v3
         with:
@@ -85,6 +95,16 @@ jobs:
       - name: Copy HolismSite/Infra to root
         run: |
           cp -r $GITHUB_WORKSPACE/HolismSite/Infra /HolismSite/Infra
+
+      - name: Get HolismSite/Qwik
+        uses: actions/checkout@v3
+        with:
+          repository: HolismSite/Qwik
+          token: ${{ secrets.PAT }}
+          path: HolismSite/Qwik
+      - name: Copy HolismSite/Qwik to root
+        run: |
+          cp -r $GITHUB_WORKSPACE/HolismSite/Qwik /HolismSite/Qwik
 
       # Dependencies
 
