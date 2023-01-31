@@ -8,3 +8,4 @@ then find action and choices of men, in vicinity to that Ayah.
 - 2:15
 - 2:152
 - 2:159
+- 2:174
