@@ -5,9 +5,7 @@ import getAhlolbaitUrl from '../../../Contents/ahlolbait'
 
 const notFound = { errorCode: 404 }
 
-const getData = async (params) => {
-    const chapter = params.chapter
-    const verse = params.verse
+const getData = async ({ chapter, verse }) => {
     if (isNaN(chapter * 1)) {
         return notFound
     }
@@ -24,7 +22,7 @@ const getData = async (params) => {
     if (verse * 1 > chapterJson.verses_count || verse * 1 < 1) {
         return notFound
     }
-    const diskSegments = [process.cwd(), 'contents', 'surahs'].concat(chapter.toString().padStart(3, '0'), verse.toString().padStart(3, '0') + '.md')
+    const diskSegments = [process.cwd(), 'Contents', 'surahs'].concat(chapter.toString().padStart(3, '0'), verse.toString().padStart(3, '0') + '.md')
     var filePath = path.join.apply(null, [...diskSegments])
     console.log(filePath)
     if (!fs.existsSync(filePath)) {
@@ -66,14 +64,22 @@ const getData = async (params) => {
 
 const ChapterAndVerse = async ({ params }) => {
 
-    const { } = await getData(params)
+    const {
+        ahlolbaitUrl,
+        chapter,
+        content,
+        corpusUrl,
+        errorCode,
+        verse,
+        verseText,
+    } = await getData(params)
 
 
     if (errorCode) {
         return <h1>Error - {errorCode}</h1>
     }
 
-    content =
+    const html =
         '<div class="md:grid grid-cols-2 gap-6">'
         + '<div class="prose p-5 m-5">'
         + `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
@@ -90,7 +96,7 @@ const ChapterAndVerse = async ({ params }) => {
         + '</div>'
 
     return <div
-        dangerouslySetInnerHTML={{ __html: content }}
+        dangerouslySetInnerHTML={{ __html: html }}
     >
     </div>
 }
