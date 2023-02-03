@@ -9,3 +9,4 @@
 - [Good & bad](good-and-bad)
 - [Asmau-l-husna](names)
 - [Fear, sadness, tranquility](fear-sadness-tranquility)
+- [Samanan Qalilan examples](samanan-qalilan-examples)
