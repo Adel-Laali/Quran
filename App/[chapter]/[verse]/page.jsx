@@ -43,6 +43,7 @@ const getData = async ({ chapter, verse }) => {
         if (content.charCodeAt(0) == 65279) {
             content = content.slice(1)
         }
+        // content = `<base target="_blank">\n${content}`
         content = marked.parse(content)
         const ahlolbaitUrl = getAhlolbaitUrl(chapterJson.chapter_number, verse * 1)
         const corpusUrl = `https://corpus.quran.com/wordbyword.jsp?chapter=${chapterJson.chapter_number}&verse=${verse * 1}`
@@ -91,6 +92,7 @@ const ChapterAndVerse = async ({ params }) => {
         + `<div><a target="_blank" href="https://www.google.com/search?q=nouman+ali+khan+${chapter.chapter_number}+${chapter.name_simple}+${verse}+guiding+directions&oq=nouman+ali+khan+4+nisa+100&aqs=chrome..69i57j69i61.327j0j1&sourceid=chrome&ie=UTF-8">Nouman Ali Khan</a></div>`
         + '</div>'
         + '<div class="prose p-5 m-5 md:h-full md:fixed md:overflow-scroll md:right-0 md:w-1/2">'
+        + '<base target="_blank">'
         + content
         + '</div>'
         + '</div>'
