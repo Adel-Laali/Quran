@@ -1,8 +1,7 @@
-find cases of "yassha'" related to guidance and misguidance.
-
-
+find cases of "yassha'" related to guidance and misguidance.   
 then find action and choices of men, in vicinity to that Ayah.
 
+### Found 
 - 2:6
 - 2:10
 - 2:15
@@ -12,3 +11,7 @@ then find action and choices of men, in vicinity to that Ayah.
 - 2:213
 - 3:112
 - 6:39
+
+### Not found
+- 6:83
+- 6:88
