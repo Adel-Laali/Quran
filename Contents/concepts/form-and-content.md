@@ -3,10 +3,12 @@
 - 2:177
 - 2:189
 - 3:13
+- 6:120
+- 6:162
 - [16:125](https://quran.com/16/125)
-- [41:33](https://quran.com/41/33)
 - [17:53](https://quran.com/17/53)
 - [29:46](https://quran.com/29/46)
+- [41:33](https://quran.com/41/33)
 
 
 ### Attack (lingual)
