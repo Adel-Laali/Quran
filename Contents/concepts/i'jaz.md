@@ -1,0 +1,8 @@
+- [The True Furqan](https://mamnoe.files.wordpress.com/2009/03/the-true-furqan-alforghan-alhagh.pdf)
+    - Problems
+        - 2:10
+            - Sons of God
+        - Read it and see how they have copied and recomposed phrases from Quran
+            - 3
+            - 4:7
+            - 4:9 
