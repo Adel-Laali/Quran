@@ -15,6 +15,7 @@ then find action and choices of men, in vicinity to that Ayah.
 - 7:146
 - 7:178
 - 7:186
+- 8:29
 
 ### Not found
 - 6:83
