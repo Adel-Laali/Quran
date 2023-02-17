@@ -1,8 +1,13 @@
 'use client'
 
-import { notFound } from 'next/navigation'
+import {
+    notFound,
+    useRouter,
+} from 'next/navigation'
 
 const ChapterAndVerse = async ({ params }) => {
+
+    const router = useRouter()
 
     const chapterNumber = params.chapter
     if (isNaN(chapterNumber * 1)) {
@@ -19,7 +24,7 @@ const ChapterAndVerse = async ({ params }) => {
     const chapter = chapters.chapters.filter(i => i.chapter_number == chapterNumber)[0]
 
     const goToVerse = (verse) => {
-        //router.push(`/${chapter?.chapter_number}/${verse}`)
+        router.push(`/${chapter?.chapter_number}/${verse}`)
     }
 
     return <>
