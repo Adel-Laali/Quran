@@ -1,32 +1,31 @@
 const fs = require('fs')
 const path = require('path')
+import { notFound } from 'next/navigation'
 import { marked } from 'marked'
 import getAhlolbaitUrl from '../../../Contents/ahlolbait'
 
-const notFound = { errorCode: 404 }
-
 const getData = async ({ chapter, verse }) => {
     if (isNaN(chapter * 1)) {
-        return notFound
+        notFound()
     }
     if (chapter * 1 > 114 || chapter * 1 < 1) {
-        return notFound
+        notFound()
     }
     if (isNaN(verse * 1)) {
-        return notFound
+        notFound()
     }
 
     const response = await fetch('https://api.quran.com/api/v3/chapters')
     const chapters = await response.json()
     const chapterJson = chapters.chapters.filter(i => i.chapter_number == chapter)[0]
     if (verse * 1 > chapterJson.verses_count || verse * 1 < 1) {
-        return notFound
+        notFound()
     }
     const diskSegments = [process.cwd(), 'Contents', 'surahs'].concat(chapter.toString().padStart(3, '0'), verse.toString().padStart(3, '0') + '.md')
     var filePath = path.join.apply(null, [...diskSegments])
     console.log(filePath)
     if (!fs.existsSync(filePath)) {
-        return notFound
+        notFound()
     }
     var verseText = await fetch(`https://api.alquran.cloud/v1/ayah/${chapter * 1}:${verse * 1}`)
         .then(response => {

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
 import { marked } from 'marked';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 const Concept = ({ urlSegments, content, errorCode, type }) => {
     return <h1>hi</h1>

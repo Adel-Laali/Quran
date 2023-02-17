@@ -1,26 +1,22 @@
+'use client'
+
 const fs = require('fs');
 const path = require('path');
 import { marked } from 'marked';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
-const Concept = ({ content }) => {
-    return <h1>hi</h1>
-    // const router = useRouter()
+const Concept = async () => {
+    const diskSegments = [process.cwd(), 'Contents', 'surahs', 'notes'];
+    var filePath = path.join.apply(null, [...diskSegments]) + '.md';
+    console.log(filePath);
+    var content = fs.readFileSync(filePath, 'utf8');
+    content = marked.parse(content);
+    const router = useRouter()
 
-    // return <>
-    //     <div onClick={() => router.push('/')} className="p-5 cursor-pointer">Home</div>
-    //     <div className='prose pl-10 mb-10 pt-4' dangerouslySetInnerHTML={{ __html: content }}></div>
-    // </>
+    return <>
+        <div onClick={() => router.push('/')} className="p-5 cursor-pointer">Home</div>
+        <div className='prose pl-10 mb-10 pt-4' dangerouslySetInnerHTML={{ __html: content }}></div>
+    </>
 }
-
-// export async function getServerSideProps({ params, res }) {
-//     const diskSegments = [process.cwd(), 'contents', 'surahs', 'notes'];
-//     var filePath = path.join.apply(null, [...diskSegments]) + '.md';
-//     console.log(filePath);
-//     var content = fs.readFileSync(filePath, 'utf8');
-//     content = marked.parse(content);
-//     const result = { props: { content: content } };
-//     return result;
-// }
 
 export default Concept;

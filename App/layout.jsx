@@ -1,11 +1,8 @@
-import '../Styles/All.scss'
 import { useLayout } from 'Base'
 
-function Layout({ children }) {
+const Layout = ({ children }) => {
 
-    return useLayout({
-        head: <></>,
-    }).render(<>
+    return useLayout().render(<>
         {children}
     </>)
 }
