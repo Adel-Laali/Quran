@@ -22,6 +22,9 @@ then find action and choices of men, in vicinity to that Ayah.
 - 9:93
 - 10:9
 - 10:33
+- 10:74
+- 10:95-97
+- 10:99-100
 
 ### Not found
 - 6:83

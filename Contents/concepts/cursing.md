@@ -1,1 +1,2 @@
 - 5:78
+- 10:88 (accepted in the next verse)

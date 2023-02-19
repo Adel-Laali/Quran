@@ -9,6 +9,7 @@
 - 6:95
 - 7:20
     - Imorotality = the original want
+- 10:104
 - [33:16](https://quran.com/33/16)
 - [56:60](https://quran.com/56/60)
 - 

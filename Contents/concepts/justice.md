@@ -1,6 +1,9 @@
 # Trace of justic in the Quran
 
 - 3:182
+- 10:44
+- 10:47
+- 10:54
 
 # Comnands for justice
 - 4:135
