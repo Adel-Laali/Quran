@@ -1,3 +1,6 @@
+- 2:174-176
+- 2:213
+- 3:19
 - 3:103
 - 3:105
 - 6:65
@@ -6,8 +9,25 @@
     - Sabileh (right, singular, belongs to him)
 - 6:159
 - 6:162
+- 7:169
+- 9:120
 - 11:110
+- 11:118-119
+- 16:64
+- 19:36-37
+- 19:59
 - 20:94
+- 21:92-93
+    - After mentioning many favors upon many prophets
+    - From 21:69
+- 24:63
+- 27:76
+    - No prophet after Muhammad
+    - No book to clarify differences between muslims
 - 30:31-32
+- 42:7-10
 - 42:13-14
+- 43:63-65
+- 45-17
+- 51:8
 - 98:4-5
