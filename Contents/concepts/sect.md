@@ -1,2 +1,13 @@
+- 3:103
+- 3:105
 - 6:65
+- 6:153
+    - Subul (wrong, plural)
+    - Sabileh (right, singular, belongs to him)
 - 6:159
+- 6:162
+- 11:110
+- 20:94
+- 30:31-32
+- 42:13-14
+- 98:4-5
