@@ -20,6 +20,9 @@
 - 21:92-93
     - After mentioning many favors upon many prophets
     - From 21:69
+- 23:52-53
+    - After prophets
+    - From 23
 - 24:63
 - 27:76
     - No prophet after Muhammad
