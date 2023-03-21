@@ -2,6 +2,7 @@
 - Baron d'Holbach = بارون دولباخ
 - Cosecant
 - کاک (a type of confectionary from Kermanshah)
+- Fock state حالت فاک
 
 ### Quran
 - وَتَذْكِيرِى
