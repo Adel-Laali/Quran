@@ -5,6 +5,11 @@ For reading the entire Quran
 
 - Nouns is permanent, verb is temporary
 - "min" means "from" and denotes a portion, a subset
+- Oath
+  - Attention grabber
+  - Prelude to the main point
+  - مقسم به و مقسم علبه
+  - Emphasis (hyperbole)
 - Differences in grammar
     - Demonstrative
         - [صفت اشاره](https://fa.wikipedia.org/wiki/صفت_اشاره)
