@@ -3,6 +3,8 @@
 - Cosecant
 - کاک (a type of confectionary from Kermanshah)
 - Fock state حالت فاک
+- Kiri (maori name)
+
 
 ### Quran
 - وَتَذْكِيرِى
