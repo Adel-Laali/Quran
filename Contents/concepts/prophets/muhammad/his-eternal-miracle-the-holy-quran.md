@@ -1,5 +1,0 @@
-- [2:23](https://quran.com/2/23)
-- [10:38](https://quran.com/10/38)
-- [17:88](https://quran.com/17/88)
-- [28:49](https://quran.com/28/49)
-- [52:34](https://quran.com/52/34)

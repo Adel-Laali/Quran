@@ -1,4 +1,0 @@
-- [Taking easy in communicating the Quran](https://quran.com/20/2)
-- [Taking easy to worshiping](https://quran.com/20/2)
-- [Taking easy in marital matters](https://quran.com/33/51)
-- [Taking easy assignments on the Prophet](https://quran.com/33/38)

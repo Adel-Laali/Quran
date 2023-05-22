@@ -1,6 +1,0 @@
-- [66:12](https://quran.com/66/12)
-- [58:2-3](https://quran.com/58/2-3)
-- [86:6](https://quran.com/86/6)
-- [4:23](https://quran.com/4/23)
-- [78:33](http://quran.com/78/33)
-- [24:59](https://quran.com/24/59)

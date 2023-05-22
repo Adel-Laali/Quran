@@ -1,8 +1,0 @@
-- Story of Umar ibn Khattab
-    - Mission to kill the Prophet
-    - Hearing about his sister and brother-in-law
-    - Wounded his sister
-    - Moved to see blood of her sister
-    - Reading this Surah (scroll in the hands of his sister)
-    - Moved and went to the Prophet to become a muslim
-- 

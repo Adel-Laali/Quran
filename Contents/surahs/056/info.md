@@ -1,6 +1,0 @@
-- Do you see how the armature spins? Is it you that spin it, or is it us?
-    - Is it you that made magnets?
-    - Is it you that made electrical circutry and the electrical current?
-    - Is it you that made the coil become an electromagnet under current?
-    - If we want we can remove electromagnetism and your device won't spin anymore.
-    - [How does an Electric Motor work? (DC Motor)](https://youtu.be/CWulQ1ZSE3c)

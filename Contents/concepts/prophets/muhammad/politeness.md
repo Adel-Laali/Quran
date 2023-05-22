@@ -1,4 +1,0 @@
-- [Allah's command to behave politely](https://quran.com/6/54)
-- [Politeness when arguing with opponents](https://quran.com/16/125)
-- [Observance of etiquette with zakat(alms-tax) payers](https://quran.com/9/103)
-- [Teaching the Politeness Of receiving revelation](https://quran.com/20/114)

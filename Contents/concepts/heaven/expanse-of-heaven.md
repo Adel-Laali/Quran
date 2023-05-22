@@ -1,3 +1,0 @@
-- [The area](https://quran.com/39/73)
-- [The origin of the expanse](https://quran.com/58/11)
-- [The width](https://quran.com/3/133)

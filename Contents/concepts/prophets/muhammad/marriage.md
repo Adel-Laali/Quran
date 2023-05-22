@@ -1,6 +1,0 @@
-- [Muhammad was allowed to marry slaves and they were allowed](https://quran.com/33/50)
-- [Restrictions on Muhammad's marriages](https://quran.com/33/52)
-- [Marriage to cousins who emigrated](https://quran.com/33/50)
-- [Marrying a woman who voluntarily gave her to him](https://quran.com/33/50)
-- [Marriage to the adopted son's wife (By Allah's command, for violating the ignorant tradition)](https://quran.com/33/37)
-- [Muhammad's marriage to his adopted son's wife is wrong in the eyes of the ignorant Arabs](https://quran.com/33/37)

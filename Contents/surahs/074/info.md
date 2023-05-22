@@ -1,8 +1,0 @@
-- [Claim](https://quran.com/surah/74/info):
-    - Second revelation
-    - Long delay from the first revelation
-    - Muhammad's sadness
-        - Attempts for suicide
-- First order for the mission (tasks and duties)
-    - First revelation was an order for reading
-- 

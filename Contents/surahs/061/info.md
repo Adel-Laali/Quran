@@ -1,4 +1,0 @@
-- Period of Revelation
-    - [It could not be known from any reliable tradition](https://quran.com/surah/61/info)
-    - but subject-matter suggests after the Battle of Uhud
-- Believing in prophethood and prophets, but not obeying them = punishment

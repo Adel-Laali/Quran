@@ -1,5 +1,0 @@
-- [Nikah halala](https://en.wikipedia.org/wiki/Nikah_halala)
-- [Bribery](https://en.wikipedia.org/wiki/Bribery)
-    - [2:188](https://quran.com/2/188)
-- [Usury](https://en.wikipedia.org/wiki/Usury)
-    - [Deuteronomy 23:21](https://mechon-mamre.org/p/pt/pt0523.htm#20)

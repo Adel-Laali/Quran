@@ -1,4 +1,0 @@
-- Revelation city
-    - [divergence in opinions](https://quran.com/surah/95/info)
-        - According to Qatadah, this Surah is Madani. Two different views have been reported from Ibn Abbas: first that it is a Makki Surah, and second that it is Madani. But the majority of scholars regard it as a Makki revelation
-- 
